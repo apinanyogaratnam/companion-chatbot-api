@@ -1,2 +1,6 @@
 python-dotenv
 openai
+flask
+flask_cors
+jsonify
+request
