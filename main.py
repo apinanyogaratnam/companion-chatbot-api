@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 from dotenv import load_dotenv
 from flask_cors import CORS
-import os, requests, json
+import os
 from openai_utils import get_response
 
 load_dotenv()
