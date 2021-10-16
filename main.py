@@ -9,7 +9,6 @@ app = Flask(__name__)
 CORS(app)
 
 api_key = os.environ['TOKEN']
-print(api_key)
 
 @app.route("/")
 def index():
