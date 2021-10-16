@@ -21,5 +21,8 @@ def get_response(input):
         stop=["\n", " Human:", " AI:"]
     )
 
+    return response["choices"][0]["text"]
 
-print(get_response("Hi there"))
+
+if __name__ == "__main__":
+    print(get_response("Hi there"))
